@@ -13,18 +13,24 @@ Cleaned the data, removed a lot of unncessary features and averaged out all the 
 
 ## Results:
 
-### Identifying Minutes Played vs WAR
+### Identifying Current WAR vs Predicted WAR
 
-![image](https://user-images.githubusercontent.com/103779074/183326399-7fc1afc4-c324-4585-9682-7896273807f2.png)
+![image](https://user-images.githubusercontent.com/103779074/188064627-7af84c74-09fb-47a1-a440-ba98acb6f5b0.png)
 
-### Identifying Correlation of RAPTOR vs WAR
-![image](https://user-images.githubusercontent.com/103779074/183326485-3cb5dd29-2f7b-4fe9-a37c-0a42253d8bb3.png)
+### Identifying Current RAPTOR vs Predicted WAR
+![image](https://user-images.githubusercontent.com/103779074/188064689-3e251d52-5ee2-4b38-85e6-74fe99d02de2.png)
+
+
+### Identifying Correlation of Predator vs WAR
+![image](https://user-images.githubusercontent.com/103779074/188064743-5d28aa1f-b881-4d83-93a3-5dc01b0f65cd.png)
+
 
 ## Model:
+Utilized a Nearest Neighbors to see how our Next WAR data would test.
+I wanted to compare to a different result so I utilized a Decision Tree Regressor.
 
-I need help making this make sense
 
 ## Recommendations and Next Steps
-
+There are high value WAR assets, as high as securing 26 wins on their own, so with this cluster of candidates we can pursue further detailed analytics to decide on what is best for the organization.
 
 # For any additional questions, please contact ajcafiero58@gmail.com
