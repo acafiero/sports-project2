@@ -9,7 +9,7 @@ The franchise has seen a collective downturn of success and is in need of a full
 Outsourced from fivethirtyeight; utilizes a handful of metrics but we narrow it down to possessions, total minutes played, WAR, RAPTOR, Pace Impact, PREDATOR and On/Off score
 
 ## Methods:
-Cleaned the data, removed a lot of unncessary features and averaged out all the stats of each player, then removed any prospect that had any negative stats.
+Cleaned the data, removed a lot of unncessary features and averaged out all the stats of each player, then removed any prospect that had any negative stats. Created new category called Next WAR that would help us predict and cluster our potential assets together.
 
 ## Results:
 
