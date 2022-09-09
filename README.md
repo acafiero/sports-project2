@@ -1,4 +1,4 @@
-# Discovering Valuable Prospects Based on WAR and RAPTOR
+# Discovering Valuable Prospects Based on Predicted WAR
 ### An analysis utilizing metrics to locate ideal NBA candidates
 
 Author: Andrew Cafiero
