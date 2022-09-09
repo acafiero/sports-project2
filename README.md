@@ -6,10 +6,10 @@ Author: Andrew Cafiero
 The franchise has seen a collective downturn of success and is in need of a full rebuild in order to regain parity with the league. The most immeadiate way to address this is to locate and sign quality veteran players.
 
 ## Data:
-Outsourced from fivethirtyeight; utilizes a handful of metrics but we narrow it down to possessions, total minutes played, WAR, RAPTOR, Pace Impact, PREDATOR and On/Off score
+Outsourced from fivethirtyeight which is a site that focuses on analysis of politics econ and sports; this specific dataset consisted of 21 categories and almost 4100 rows of athletes in various seasons. Ours utilizes a handful of metrics but we narrowed it down to possessions, total minutes played, WAR, RAPTOR, Pace Impact, PREDATOR and On/Off score.
 
 ## Methods:
-Cleaned the data, removed a lot of unncessary features and averaged out all the stats of each player, then removed any prospect that had any negative stats. Created new category called Next WAR that would help us predict and cluster our potential assets together.
+Cleaned the data, removed a lot of unncessary features and averaged out all the stats of each player, then removed any prospect that had any negative stats. We created new category called Next WAR representing our prediction of the next season's Wins Above Replacement for each athlete-- this that would help us predict and cluster our potential assets together.
 
 ## Results:
 
@@ -26,11 +26,11 @@ Cleaned the data, removed a lot of unncessary features and averaged out all the 
 
 
 ## Model:
-Utilized a Nearest Neighbors to see how our Next WAR data would test.
-I wanted to compare to a different result so I utilized a Decision Tree Regressor.
+Clustering and color coding the athletes into high value (yellow), "average" value (purple), and low value (green), we tilized a Nearest Neighbors to see how our Next WAR data would test. Wanting to further to compare our generated category to a different result we utilized a Decision Tree Regressor and found our data to be 89% accurate.
 
+![Next WAR Model plot](https://user-images.githubusercontent.com/103779074/189432109-4a8ecf62-b0b0-414c-9baa-a812f3acd705.jpg)
 
 ## Recommendations and Next Steps
-There are high value WAR assets, as high as securing 26 wins on their own, so with this cluster of candidates we can pursue further detailed analytics to decide on what is best for the organization.
+There are high value WAR assets, as high as securing 26 wins on their own, so with this cluster of candidates we can pursue further detailed analytics to decide on what is best for the organization. Our biggest hurdle for the future is the ever-present chance of possibly overvaluing mediocre players and undervaluing players whose intangible qualities are not represented through our data.
 
 # For any additional questions, please contact ajcafiero58@gmail.com
